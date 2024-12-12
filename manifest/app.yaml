@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/vishalpatil0105/helm-charts  
     targetRevision: HEAD  
-    path: python-app 
+    path: python-application
 
   destination:
     server: https://kubernetes.default.svc  
