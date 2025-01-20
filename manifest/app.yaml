@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default  
   source:
-    repoURL: https://github.com/vishalpatil0105/helm-charts  
+    repoURL: https://github.com/vishalpatil0105/test123  
     targetRevision: HEAD  
-    path: python-application
+    path: files
 
   destination:
     server: https://kubernetes.default.svc  
