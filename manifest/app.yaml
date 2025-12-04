@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/vishalpatil0105/helm-charts.git
+    repoURL: https://github.com/vishalpatil0105/helm-charts
     targetRevision: HEAD     
     path: python-application 
 
