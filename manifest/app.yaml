@@ -1,18 +1,20 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: python-app  
-  namespace: argocd  
+  name: python-app
+  namespace: argocd         
 spec:
-  project: default  
+  project: default
+
   source:
-    repoURL: https://github.com/vishalpatil0105/helm-charts  
-    targetRevision: main  
-    path: python-application
+    repoURL: https://github.com/vishalpatil0105/helm-charts.git
+    targetRevision: main     
+    path: python-application 
 
   destination:
-    server: https://kubernetes.default.svc  
-    namespace: default
+    server: https://kubernetes.default.svc
+    namespace: default     
+
   syncPolicy:
     automated:
       prune: true
